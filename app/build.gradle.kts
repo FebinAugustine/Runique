@@ -3,6 +3,8 @@ plugins {
 //    alias(libs.plugins.kotlin.android)
 //    alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.runique.android.application.compose)
+    alias(libs.plugins.compose.compiler) apply false
+    alias(libs.plugins.runique.jvm.ktor)
     alias(libs.plugins.mapsplatform.secrets.plugin)
 
 }
